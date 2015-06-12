@@ -3,7 +3,7 @@
     /// <summary>
     /// This visitor encapsulates all the logic related to calculating net worth of a person
     /// </summary>
-    public class NetWorthVisitor : IPersonVisitor
+    public class NetWorthVisitor : IAssetVisitor
     {
         public decimal NetWorth { get; private set; }
 

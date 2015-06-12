@@ -2,9 +2,9 @@
 {
     public class BankAccount : IAsset
     {
-        public void Accept(IPersonVisitor personVisitor)
+        public void Accept(IAssetVisitor assetVisitor)
         {
-            personVisitor.Visit(this);
+            assetVisitor.Visit(this);
         }
 
         public decimal Balance { get; set; }
@@ -14,9 +14,9 @@
 
     public class RealEstate : IAsset
     {
-        public void Accept(IPersonVisitor personVisitor)
+        public void Accept(IAssetVisitor assetVisitor)
         {
-            personVisitor.Visit(this);
+            assetVisitor.Visit(this);
         }
 
         public decimal EstimatedValue { get; set; }
@@ -26,9 +26,9 @@
 
     public class Loan : IAsset
     {
-        public void Accept(IPersonVisitor personVisitor)
+        public void Accept(IAssetVisitor assetVisitor)
         {
-            personVisitor.Visit(this);
+            assetVisitor.Visit(this);
         }
 
         public decimal AmountOwed { get; set; }

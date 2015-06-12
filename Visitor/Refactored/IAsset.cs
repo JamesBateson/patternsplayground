@@ -2,6 +2,6 @@
 {
     public interface IAsset
     {
-        void Accept(IPersonVisitor personVisitor);
+        void Accept(IAssetVisitor visitor);
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Visitor.Refactored
 {
-    public interface IPersonVisitor
+    public interface IAssetVisitor
     {
         void Visit(RealEstate realEstate);
         void Visit(BankAccount bankAccount);

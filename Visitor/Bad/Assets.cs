@@ -1,5 +1,7 @@
 ﻿namespace Visitor.Bad
 {
+    //Imagine that these assets are stable and unlikely to change
+
     public class BankAccount : IAsset
     {
         public decimal Balance { get; set; }

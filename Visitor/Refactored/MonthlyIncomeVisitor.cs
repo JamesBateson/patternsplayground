@@ -3,7 +3,7 @@
     /// <summary>
     /// We could add all this logic without touching any other classes i.e. we are adhering to the open-closed principle
     /// </summary>
-    public class MonthlyIncomeVisitor : IPersonVisitor
+    public class MonthlyIncomeVisitor : IAssetVisitor
     {
         public decimal Income { get; private set; }
 

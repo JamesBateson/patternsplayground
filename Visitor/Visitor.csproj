@@ -43,13 +43,13 @@
   <ItemGroup>
     <Compile Include="Bad\Assets.cs" />
     <Compile Include="Bad\IAsset.cs" />
+    <Compile Include="Refactored\IAsset.cs" />
     <Compile Include="Bad\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refactored\Assets.cs" />
-    <Compile Include="Refactored\IAsset.cs" />
     <Compile Include="Refactored\MonthlyIncomeVisitor.cs" />
-    <Compile Include="Refactored\IPersonVisitor.cs" />
+    <Compile Include="Refactored\IAssetVisitor.cs" />
     <Compile Include="Refactored\NetWorthVisitor.cs" />
     <Compile Include="Refactored\Person.cs" />
   </ItemGroup>

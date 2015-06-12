@@ -20,12 +20,9 @@ namespace Visitor.Refactored
         {
             get
             {
-                var visitor = new NetWorthVisitor();
-                foreach (var asset in _assets)
-                {
-                    asset.Accept(visitor);
-                }
-                return visitor.NetWorth;
+                var netWorthVisitor = new NetWorthVisitor();
+                VisitAssets(netWorthVisitor);
+                return netWorthVisitor.NetWorth;
             }
         }
 
@@ -33,12 +30,17 @@ namespace Visitor.Refactored
         {
             get
             {
-                var visitor = new MonthlyIncomeVisitor();
-                foreach (var asset in _assets)
-                {
-                    asset.Accept(visitor);
-                }
-                return visitor.Income;    
+                var monthlyIncomeVisitor = new MonthlyIncomeVisitor();
+                VisitAssets(monthlyIncomeVisitor);
+                return monthlyIncomeVisitor.Income;
+            }
+        }
+
+        private void VisitAssets(IAssetVisitor visitor)
+        {
+            foreach (var asset in _assets)
+            {
+                asset.Accept(visitor);
             }
         }
     }
