@@ -1,0 +1,8 @@
+C:\GIT\patternsplayground\Visitor\bin\Debug\Visitor.exe.config
+C:\GIT\patternsplayground\Visitor\bin\Debug\Visitor.exe
+C:\GIT\patternsplayground\Visitor\bin\Debug\Visitor.pdb
+C:\GIT\patternsplayground\Visitor\bin\Debug\Composite.exe
+C:\GIT\patternsplayground\Visitor\bin\Debug\Composite.pdb
+C:\GIT\patternsplayground\Visitor\obj\Debug\Visitor.csprojResolveAssemblyReference.cache
+C:\GIT\patternsplayground\Visitor\obj\Debug\Visitor.exe
+C:\GIT\patternsplayground\Visitor\obj\Debug\Visitor.pdb

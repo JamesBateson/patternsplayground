@@ -7,3 +7,9 @@ E:\GIT\Projects\PatternsPlayground\PatternsPlayground\Composite\obj\Debug\Compos
 C:\GIT\patternsplayground\PatternsPlayground\PatternsPlayground\Composite\bin\Debug\Composite.exe.config
 C:\GIT\patternsplayground\PatternsPlayground\PatternsPlayground\Composite\obj\Debug\Composite.exe
 C:\GIT\patternsplayground\PatternsPlayground\PatternsPlayground\Composite\obj\Debug\Composite.pdb
+C:\GIT\patternsplayground\Composite\bin\Debug\Composite.exe.config
+C:\GIT\patternsplayground\Composite\bin\Debug\Composite.exe
+C:\GIT\patternsplayground\Composite\bin\Debug\Composite.pdb
+C:\GIT\patternsplayground\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache
+C:\GIT\patternsplayground\Composite\obj\Debug\Composite.exe
+C:\GIT\patternsplayground\Composite\obj\Debug\Composite.pdb
