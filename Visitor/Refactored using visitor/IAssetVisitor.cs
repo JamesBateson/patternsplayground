@@ -1,6 +1,4 @@
-﻿using Visitor.Bad;
-
-namespace Visitor.Refactored
+﻿namespace Visitor.RefactoredUsingVisitor
 {
     public interface IAssetVisitor
     {

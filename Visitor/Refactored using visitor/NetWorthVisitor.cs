@@ -1,4 +1,4 @@
-﻿namespace Visitor.Refactored
+﻿namespace Visitor.RefactoredUsingVisitor
 {
     /// <summary>
     /// This visitor encapsulates all the logic related to calculating net worth of a person

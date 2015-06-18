@@ -1,4 +1,4 @@
-﻿namespace Visitor.Refactored
+﻿namespace Visitor.RefactoredUsingVisitor
 {
     /// <summary>
     /// We could add all this logic without touching any other classes i.e. we are adhering to the open-closed principle

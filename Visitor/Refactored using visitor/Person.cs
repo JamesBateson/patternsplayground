@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Visitor.Refactored
+namespace Visitor.RefactoredUsingVisitor
 {
     public class Person
     {

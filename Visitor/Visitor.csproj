@@ -43,15 +43,18 @@
   <ItemGroup>
     <Compile Include="Bad\Assets.cs" />
     <Compile Include="Bad\IAsset.cs" />
-    <Compile Include="Refactored\IAsset.cs" />
+    <Compile Include="Refactored using polymorphism\Assets.cs" />
+    <Compile Include="Refactored using polymorphism\IAsset.cs" />
+    <Compile Include="Refactored using polymorphism\Person.cs" />
+    <Compile Include="Refactored using visitor\IAsset.cs" />
     <Compile Include="Bad\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Refactored\Assets.cs" />
-    <Compile Include="Refactored\MonthlyIncomeVisitor.cs" />
-    <Compile Include="Refactored\IAssetVisitor.cs" />
-    <Compile Include="Refactored\NetWorthVisitor.cs" />
-    <Compile Include="Refactored\Person.cs" />
+    <Compile Include="Refactored using visitor\Assets.cs" />
+    <Compile Include="Refactored using visitor\MonthlyIncomeVisitor.cs" />
+    <Compile Include="Refactored using visitor\IAssetVisitor.cs" />
+    <Compile Include="Refactored using visitor\NetWorthVisitor.cs" />
+    <Compile Include="Refactored using visitor\Person.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,6 +65,7 @@
       <Name>Composite</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
