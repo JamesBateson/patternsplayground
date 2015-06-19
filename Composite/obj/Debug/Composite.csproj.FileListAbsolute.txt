@@ -13,3 +13,5 @@ C:\GIT\patternsplayground\Composite\bin\Debug\Composite.pdb
 C:\GIT\patternsplayground\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache
 C:\GIT\patternsplayground\Composite\obj\Debug\Composite.exe
 C:\GIT\patternsplayground\Composite\obj\Debug\Composite.pdb
+C:\GIT\patternsplayground\Composite\bin\Debug\nunit.framework.dll
+C:\GIT\patternsplayground\Composite\bin\Debug\nunit.framework.xml

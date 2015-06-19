@@ -33,8 +33,7 @@
         public decimal AmountOwed { get; set; }
         public decimal MonthlyPayment { get; set; }
         //etc
-
-
+        
         public decimal NetWorth
         {
             get { return -AmountOwed; }

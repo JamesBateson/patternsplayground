@@ -1,0 +1,100 @@
+cef/
+Debug/
+Release/
+Debug (EDUPACK)/
+Release (EDUPACK)/
+debug/
+Debug_st/
+Release_st/
+release/
+!/extlib/Boost/boost/preprocessor/debug/
+bin/
+Bin/
+!/install/bootloader/dotNetInstaller 2.2/Bin
+!/src_tools/bin
+!/src_tools/bin/release
+obj/
+Obj/
+*.resharper
+*.user
+*.opensdf
+*.sdf
+*.suo
+*.tlog
+*.log
+*.bsc
+*.aps
+*.APS
+*.dotCover
+*.DotSettings
+*.ncrunchproject
+*.ncrunchsolution
+*.tmp
+_ReSharper.*
+_Chutzpah.*
+/src/TestResults
+/src/ipch
+/src/ExportLibs/*/*.tlb
+/src/ExportLibs/*/*.ilk
+/src/ExportLibs/Shared/CESExportRecord.h
+/src/ExportLibs/Shared/CESExportRecord_i.c
+/src/ExportLibs/AbaqusIsoMat/AbaqusIsoMat_i.c
+/src/ExportLibs/AbaqusIsoMat/AbaqusIsoMat.h
+/src/ExportLibs/AbaqusIsoMil/AbaqusIsoMil_i.c
+/src/ExportLibs/AbaqusIsoMil/AbaqusIsoMil.h
+/src/ExportLibs/AbaqusOrthoMil/AbaqusOrthoMil.h
+/src/ExportLibs/AbaqusOrthoMil/AbaqusOrthoMil_i.c
+/src/ExportLibs/AnsysIsoMat/AnsysIsoMat.h
+/src/ExportLibs/AnsysIsoMat/AnsysIsoMat_i.c
+/src/ExportLibs/AnsysIsoMil/AnsysIsoMil_i.c
+/src/ExportLibs/AnsysIsoMil/AnsysIsoMil.h
+/src/ExportLibs/AnsysOrthoMil/AnsysOrthoMil_i.c
+/src/ExportLibs/AnsysOrthoMil/AnsysOrthoMil.h
+/src/ExportLibs/NastranIsoMat/NastranIsoMat.h
+/src/ExportLibs/NastranIsoMat/NastranIsoMat_i.c
+/src/ExportLibs/NastranIsoMil/NastranIsotropicExport_i.c
+/src/ExportLibs/NastranIsoMil/NastranIsotropicExport.h
+/src/ExportLibs/NastranOrthoMil/NastranOrthotropicExport_i.c
+/src/ExportLibs/NastranOrthoMil/NastranOrthotropicExport.h
+/src/ExportLibs/PatranIsoMat/PatranIsoMat_i.c
+/src/ExportLibs/PatranIsoMat/PatranIsoMat.h
+/src/ExportLibs/PatranIsoMil/PatranIsotropicExport_i.c
+/src/ExportLibs/PatranIsoMil/PatranIsotropicExport.h
+/src/ExportLibs/PatranOrthoMil/PatranOrthotropicExport_i.c
+/src/ExportLibs/PatranOrthoMil/PatranOrthotropicExport.h
+/src/ExportLibs/ProEngIsoMat/ProEngineerExport_i.c
+/src/ExportLibs/ProEngIsoMat/ProEngineerExport.h
+/src/ExportLibs/ProEngIsoMil/ProEngineerIsotropicExport_i.c
+/src/ExportLibs/ProEngIsoMil/ProEngineerIsotropicExport.h
+/src/ExportLibs/SolidWorks/SolidWorks_h.h
+/src/ExportLibs/SolidWorks/SolidWorks_i.c
+/src/ImportLibs/*/*.tlb
+/src/ImportLibs/*/*.ilk
+/src/ImportLibs/Shared/CESImporter.h
+/src/ImportLibs/Shared/CESImporter_i.c
+/src/ImportLibs/Hull/Library.h
+/src/ImportLibs/Hull/Library_i.c
+/src/ImportLibs/Server/Server.h
+/src/ImportLibs/Server/Server_i.c
+/Deployment/*/Languages
+/Deployment/*/Languages/*/
+/Deployment/*/Schools
+/Deployment/*/Schools/*/
+/Deployment/*/SFXs
+/Deployment/*/SKUs
+/Deployment/*/Source/
+/Deployment/*/Signed/
+/Database Homepage/Database Homepage/Pages/JavascriptLibs
+/Database Homepage/Database Homepage Tests/JavascriptTestLibs
+/Database Homepage/Database Homepage Tests/*.dll
+/Database Homepage/Database Homepage Tests/*.pdb
+/Database Homepage/Stand Alone Database Homepages/*/*/Pages/css
+/Database Homepage/Stand Alone Database Homepages/*/*/Pages/images
+/Database Homepage/Stand Alone Database Homepages/*/*/Pages/js
+/Database Homepage/Stand Alone Database Homepages/*/*/Pages/*.html
+/Database Homepage/Stand Alone Database Homepages/*/*/scripts
+/Database Homepage/Stand Alone Database Homepages/*/*/test
+src/UpgradeLog.htm
+Packages/
+*.out
+**/*.crunchsolution.cache
