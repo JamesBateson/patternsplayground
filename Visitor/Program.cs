@@ -37,8 +37,12 @@ namespace Visitor
             person.AddAsset(new RefactoredUsingVisitor.RealEstate() {EstimatedValue = 250000.00m, MonthlyRent = 10000m});
             person.AddAsset(new RefactoredUsingVisitor.Loan {AmountOwed = 1000.00m, MonthlyPayment = 20m});
 
-            Console.WriteLine("Net worth calculated with the visitor solution: {0}", person.NetWorth);
-            Console.WriteLine("Monthly income: {0}", person.MonthlyIncome);
+            var netWorthVisitor = new RefactoredUsingVisitor.NetWorthVisitor();
+            person.Accept(netWorthVisitor);
+            var monthlyIncomeVisitor = new RefactoredUsingVisitor.MonthlyIncomeVisitor();
+            person.Accept(monthlyIncomeVisitor);
+            Console.WriteLine("Net worth calculated with the visitor solution: {0}", netWorthVisitor.NetWorth);
+            Console.WriteLine("Monthly income: {0}", monthlyIncomeVisitor.Income);
         }
 
         private static void RunPolymorphicSolution()

@@ -17,6 +17,8 @@ namespace Visitor.RefactoredUsingPolymorphism
             Assets.Add(asset);
         }
 
+        //We would have to add a new property for each new operation.
+        //The code would be very similar (iterating over all assets) - thus violating the DRY principle.
         public decimal NetWorth
         {
             get
