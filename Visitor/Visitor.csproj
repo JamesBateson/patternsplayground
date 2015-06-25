@@ -47,6 +47,9 @@
     <Compile Include="Bad\Assets.cs" />
     <Compile Include="Bad\IAsset.cs" />
     <Compile Include="Bad\NetWorthTest.cs" />
+    <Compile Include="DoubleDispatch\Asteroids.cs" />
+    <Compile Include="DoubleDispatch\DoubleDispatch.cs" />
+    <Compile Include="DoubleDispatch\SpaceShips.cs" />
     <Compile Include="Refactored using polymorphism\Assets.cs" />
     <Compile Include="Refactored using polymorphism\IAsset.cs" />
     <Compile Include="Refactored using polymorphism\Person.cs" />

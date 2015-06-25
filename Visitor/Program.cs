@@ -16,6 +16,10 @@ namespace Visitor
 
             RunPolymorphicSolution();
 
+            Console.WriteLine();
+
+            DoubleDispatch.DoubleDispatch.RunDoubleDispatchCode();
+
             Console.ReadKey();
         }
 
