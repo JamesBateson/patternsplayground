@@ -22,7 +22,7 @@ namespace Visitor.Bad
             {
                 decimal netWorth = 0;
 
-                //Type sniffing is definitely a code smell and you should think "Visitor" when you see code like this
+                //Type sniffing is definitely a code smell and you should consider the Visitor pattern when you see code like this
                 foreach (IAsset asset in Assets)
                 {
                     var bankAccount = asset as BankAccount;
