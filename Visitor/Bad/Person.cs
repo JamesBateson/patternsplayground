@@ -45,7 +45,7 @@ namespace Visitor.Bad
                     }
 
                     //If another type of asset is added, we have to come in here and add some more logic
-                    //This is a breach of the open-closed principle
+                    //This is a breach of the open-closed principle and the DRY principle
                 }
 
                 return netWorth;
