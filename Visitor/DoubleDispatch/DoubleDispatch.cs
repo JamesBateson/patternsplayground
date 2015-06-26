@@ -1,10 +1,21 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
+using Visitor.Bad;
 
 namespace Visitor.DoubleDispatch
 {
     public class DoubleDispatch
     {
-        public static void RunDoubleDispatchCode()
+        public static void RunDoubleDispatchCodeAssets()
+        {
+            IAssetOperation netWorth = new NetWorth();
+            IAsset bankAccount = new BankAccount();
+
+            //I want to write the below but can't - Calculate() cannot resolve based on an IAsset, it needs a concrete IAsset to resolve the method
+            //var worth = netWorth.Calculate(bankAccount);
+        }
+
+        public static void RunDoubleDispatchCodeAsteroids()
         {
             var asteroid = new Asteroid();
             var massiveAsteroid = new MassiveAsteroid();
@@ -29,8 +40,6 @@ namespace Visitor.DoubleDispatch
             Asteroid massiveAsteroid2 = new MassiveAsteroid();
             SpaceShip shuttle2 = new SpaceShuttle();
             massiveAsteroid2.CollideWith(shuttle2);
-
-            //TRY WITH THE ASSETS
-        } 
+        }
     }
 }

@@ -18,7 +18,7 @@ namespace Visitor
 
             Console.WriteLine();
 
-            DoubleDispatch.DoubleDispatch.RunDoubleDispatchCode();
+            DoubleDispatch.DoubleDispatch.RunDoubleDispatchCodeAsteroids();
 
             Console.ReadKey();
         }
