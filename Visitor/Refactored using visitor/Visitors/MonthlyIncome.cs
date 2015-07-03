@@ -1,9 +1,9 @@
-﻿namespace Visitor.RefactoredUsingVisitor
+﻿namespace Visitor.RefactoredUsingVisitor.Visitors
 {
     /// <summary>
     /// We could add all this logic without touching any other classes i.e. we are adhering to the open-closed principle
     /// </summary>
-    public class MonthlyIncomeVisitor : IAssetVisitor
+    public class MonthlyIncome : IAssetVisitor
     {
         public decimal Income { get; private set; }
 

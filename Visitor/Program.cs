@@ -41,11 +41,11 @@ namespace Visitor
             person.AddAsset(new RefactoredUsingVisitor.RealEstate() {EstimatedValue = 250000.00m, MonthlyRent = 10000m});
             person.AddAsset(new RefactoredUsingVisitor.Loan {AmountOwed = 1000.00m, MonthlyPayment = 20m});
 
-            var netWorthVisitor = new RefactoredUsingVisitor.NetWorthVisitor();
+            var netWorthVisitor = new RefactoredUsingVisitor.Visitors.NetWorth();
             person.Accept(netWorthVisitor);
-            var monthlyIncomeVisitor = new RefactoredUsingVisitor.MonthlyIncomeVisitor();
+            var monthlyIncomeVisitor = new RefactoredUsingVisitor.Visitors.MonthlyIncome();
             person.Accept(monthlyIncomeVisitor);
-            Console.WriteLine("Net worth calculated with the visitor solution: {0}", netWorthVisitor.NetWorth);
+            Console.WriteLine("Net worth calculated with the visitor solution: {0}", netWorthVisitor.Worth);
             Console.WriteLine("Monthly income: {0}", monthlyIncomeVisitor.Income);
         }
 

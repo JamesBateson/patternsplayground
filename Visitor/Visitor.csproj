@@ -59,9 +59,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Refactored using visitor\Assets.cs" />
-    <Compile Include="Refactored using visitor\MonthlyIncomeVisitor.cs" />
-    <Compile Include="Refactored using visitor\IAssetVisitor.cs" />
-    <Compile Include="Refactored using visitor\NetWorthVisitor.cs" />
+    <Compile Include="Refactored using visitor\TestMonthlyIncome.cs" />
+    <Compile Include="Refactored using visitor\TestNetWorth.cs" />
+    <Compile Include="Refactored using visitor\TestApplyInflation.cs" />
+    <Compile Include="Refactored using visitor\Visitors\MonthlyIncome.cs" />
+    <Compile Include="Refactored using visitor\Visitors\IAssetVisitor.cs" />
+    <Compile Include="Refactored using visitor\Visitors\ApplyInflation.cs" />
+    <Compile Include="Refactored using visitor\Visitors\NetWorth.cs" />
     <Compile Include="Refactored using visitor\Person.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿namespace Visitor.RefactoredUsingVisitor
+﻿namespace Visitor.RefactoredUsingVisitor.Visitors
 {
     public interface IAssetVisitor
     {

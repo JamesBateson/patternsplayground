@@ -1,25 +1,25 @@
-﻿namespace Visitor.RefactoredUsingVisitor
+﻿namespace Visitor.RefactoredUsingVisitor.Visitors
 {
     /// <summary>
     /// This visitor encapsulates all the logic related to calculating net worth of a person
     /// </summary>
-    public class NetWorthVisitor : IAssetVisitor
+    public class NetWorth : IAssetVisitor
     {
-        public decimal NetWorth { get; private set; }
+        public decimal Worth { get; private set; }
 
         public void Visit(RealEstate realEstate)
         {
-            NetWorth += realEstate.EstimatedValue;
+            Worth += realEstate.EstimatedValue;
         }
 
         public void Visit(BankAccount bankAccount)
         {
-            NetWorth += bankAccount.Balance;
+            Worth += bankAccount.Balance;
         }
 
         public void Visit(Loan loan)
         {
-            NetWorth -= loan.AmountOwed;
+            Worth -= loan.AmountOwed;
         }
     }
 }

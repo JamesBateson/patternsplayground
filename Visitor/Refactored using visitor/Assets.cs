@@ -1,4 +1,6 @@
-﻿namespace Visitor.RefactoredUsingVisitor
+﻿using Visitor.RefactoredUsingVisitor.Visitors;
+
+namespace Visitor.RefactoredUsingVisitor
 {
     public class BankAccount : IAsset
     {
