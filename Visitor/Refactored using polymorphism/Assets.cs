@@ -45,4 +45,16 @@
             get { return -AmountOwed; }
         }
     }
+
+    public class Shares : IAsset
+    {
+        public decimal Value { get; set; }
+        public decimal MonthlyDividend { get; set; }
+        //etc
+
+        public decimal NetWorth
+        {
+            get { return Value; }
+        }
+    }
 }

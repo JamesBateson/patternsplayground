@@ -46,6 +46,7 @@ namespace Visitor.Bad
 
                     //If another type of asset is added, we have to come in here and add some more logic
                     //This is a breach of the open-closed principle and the DRY principle
+                    //This actually isn't fixed with the visitor pattern, but would be by a polymorphic approach (See Refactored using polymorphism)
                 }
 
                 return netWorth;

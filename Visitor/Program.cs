@@ -57,6 +57,7 @@ namespace Visitor
             person.AddAsset(new RefactoredUsingPolymorphism.BankAccount { Balance = 1000.00m, MonthlyInterest = 0.03m });
             person.AddAsset(new RefactoredUsingPolymorphism.RealEstate() { EstimatedValue = 250000.00m, MonthlyRent = 10000m });
             person.AddAsset(new RefactoredUsingPolymorphism.Loan { AmountOwed = 1000.00m, MonthlyPayment = 20m });
+            person.AddAsset(new RefactoredUsingPolymorphism.Shares { Value=2500m, MonthlyDividend = 2m});
 
             Console.WriteLine("Net worth calculated with the polymorphic solution: {0}", person.NetWorth);
         }
