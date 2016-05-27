@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NUnit.Framework;
 using Visitor.Bad;
 
@@ -10,9 +11,21 @@ namespace Visitor.DoubleDispatch
         {
             IAssetOperation netWorth = new NetWorth();
             IAsset bankAccount = new BankAccount();
+            IAsset realEstate = new RealEstate();
 
-            //I want to write the below but can't - Calculate() cannot resolve based on an IAsset, it needs a concrete IAsset to resolve the method
-            //var worth = netWorth.Calculate(bankAccount);
+            var assets = new List<IAsset>()
+            {
+                bankAccount,
+                realEstate
+                //etc.
+            };
+
+            var overallNetWorth = 0;
+            foreach (IAsset asset in assets)
+            {
+                //I want to write the below but can't - Calculate() cannot resolve based on an IAsset, it needs a concrete IAsset to resolve the method
+                //overallNetWorth += netWorth.Calculate(bankAccount);
+            }
         }
 
         public static void RunDoubleDispatchCodeAsteroids()
