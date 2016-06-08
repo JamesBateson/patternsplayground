@@ -53,6 +53,7 @@
     <Compile Include="Sandwich.cs" />
     <Compile Include="Builders\SandwichBuilder.cs" />
     <Compile Include="Makers %28Directors%29\RegularSandwichMaker.cs" />
+    <Compile Include="SkeetsBuilder\SkeetsBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

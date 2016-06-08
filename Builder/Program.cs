@@ -19,6 +19,8 @@
 
 namespace Builder
 {
+    using Builder.SkeetsBuilder;
+
     class Program
     {
         static void Main(string[] args)
@@ -37,6 +39,13 @@ namespace Builder
             veganSandwichmaker.MakeMeASandwich();
             var veganSandwich = veganSandwichmaker.GetSandwich();
             veganSandwich.Display();
+
+            Console.WriteLine("\nSkeet's builder:");
+            //ShyClass's state is private and can only be created via it's builder
+            //var shyClass = new ShyClass(); //CAN'T CONSTRUCT
+            
+            var shyClass = new ShyClass.Builder { Name = "Test name" }.Build();
+            Console.WriteLine(shyClass);
 
             Console.ReadKey();
         }
